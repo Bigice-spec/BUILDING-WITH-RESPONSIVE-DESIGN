@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav>
+            <label class="logo">
+                <img src="images/download.png" alt="">
+            </label>
+            <div class="flex">
+                <div style="background: #131313;" class="top">
+                    <ul class="left">
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">AMAs</a></li>
+                        <li><a href="#">Spaces</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+        
+                    <ul class="right">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="down">
+                    <ul class="left">
+                        <li><a href="#">LATEST</a></li>
+                        <li><a href="#">HARD FORK</a></li>
+                        <li><a href="#">PLUGGED</a></li>
+                        <li><a href="#">README</a></li>
+                        <li><a href="#">GROWTH QUARTERS</a></li>
+                    </ul>
+                    <ul class="right" onclick="openNav1()"> 
+                        <li>
+                            <i class="fa fa-search"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile">
+            <label class="logo">
+                <img src="images/download.png" alt="">
+            </label>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="mobile2">
+                    <ul class="icons">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-youtube"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-pinterest"></a></li>
+                        <li><a href="#" class="fa fa-feed"></a></li>
+                        <li><a href="#" class="fa fa-envelope"></a></li>
+                    </ul>
+                    <div class="mobileNav">
+                        <div class="navLeft">
+                            <ul>
+                                <li>SECTIONS</li>
+                                <li><a href="#">Latest</a></li>
+                                <li><a href="#">Insights</a></li>
+                                <li><a href="#">Plugged</a></li>
+                                <li><a href="#">Hard Fock</a></li>
+                                <li><a href="#">ReadMe</a></li>
+                                <li><a href="#">Growth Quaters</a></li>
+                                <li><a href="#">Shift</a></li>
+                                <li><a href="#">Neural</a></li>
+                            </ul>
+                        </div>
+                        <div class="navRight">
+                            <ul>
+                                <li>ABOUT TNW</li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Advertise</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Tearms & Conditions</a></li><br>
+
+                                <li>TNW SITES</li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#"><News/a></li>
+                                <li><a href="#">TNW 2020</a></li>
+                                <li><a href="#">Programs</a></li>
+                                <li><a href="#">Index</a></li>
+                                <li><a href="#">Spaces</a></li>
+                                <li><a href="#">Deals</a></li>
+                                <li><a href="#">Answers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <span class="openBar" onclick="openNav()">&#9776;</span>
+              <span style="float: right; margin-right: 10px;" onclick="openNav1()"><i class="fa fa-search"></i></span>
+        </div>
+        <div class="yourSearch" id="yourSearch">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+            </form>
+        </div>
+
+        <main>
+            <div class="grid">
+                <div class="box1">
+                    <div class="text">
+                        <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                            href="#">TECH</a></p>
+                        <p><a id="font" style="color: white; font-weight: bold; font-size: 38px; text-shadow: 1px 1px 2px #000;"
+                            href="#">DoNotPay, the AI lawyer for your inbox, now lets you report businesses for tax fraud</a></p>
+                        <ul>
+                            <li><a href="#">by Tristian Green</a></li>
+                            <li><a href="#"><i class="material-icons">access_time</i></a></li>
+                            <li><a href="#">3 hours ago</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="gridTop">
+                        <div class="text" >
+                            <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                href="#">TECH</a></p>
+                            <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                href="#">Ableist capitalist individualism</a></p>
+                            <ul>
+                                <li><a href="#">by Tristian Green</a></li>
+                                <li><a href="#"><i class="material-icons">access_time</i></a></li>
+                                <li><a href="#">5 hours ago</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gridBottom">
+                        <div class="text">
+                            <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                href="#">Are you a poet? / Google's new AI will help / Rewrite your shit prose</a></p>
+                            <ul>
+                                <li><a href="#">by Thomas Macaulay</a></li>
+                                <li><a href="#"><i class="material-icons">access_time</i></a></li>
+                                <li><a href="#">12 hours ago</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="latest">
+                <div class="latestGrid">
+                    <div class="latestWrapper">
+                        <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/Snapchat-Lit-796x398.jpg" alt="image"></a>
+                            <a href="#"><h3>Snapchat is ripping off TikTok - The cycle is now complete</h3></a>
+                            <span>Rachel Kaser 1 day ago</span>
+                          </div>
+                        <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/handshake-emoji-516x270.png" alt="image"></a>
+                            <a href="#"><h3>Andoid might separate emoji from OS updates so you can get new ones faster</h3></a>
+                            <span>Ivan Mehta 13 hours ago</span>
+                          </div>
+                          <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Desklab-Lifestyle-540x270.jpeg" alt="image"></a>
+                            <a href="#"><h3>10 unique tech holiday gifts you can get wit Black Friday discounts</h3></a>
+                            <span>TNW Deals 19 hours ago</span>
+                          </div>
+                          <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/phantom-p4-1701166_1920-483x270.jpg" alt="image"></a>
+                            <a href="#"><h3>Meshmerize is the winner of the Start-Up Games</h3></a>
+                            <span>Andrea Hak 20 hours ago</span>
+                          </div>
+                          <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/elonstonks-480x270.jpg" alt="image"></a>
+                            <a href="#"><h3>Elon Musk eclipses Bill Gates to become the world's second richest person</h3></a>
+                            <span>David Canellis 20 hours ago</span>
+                          </div>
+                          <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Trio-514x270.jpg" alt="image"></a>
+                            <a href="#"><h3>Battle of affordables: Pixel 4a vs OnePlus Node vs Poco X3</h3></a>
+                            <span>Ivan Mehta 22 hours ago</span>
+                          </div>
+                          <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/money-self-driving-taxi-uber-california-workers-drivers-rights-employment-cars-lawsuit-lyft-uber-sued-480x270.png" alt="image"></a>
+                            <a href="#"><h3>Califonia pave ways to let self-driving taxis charge for rides</h3></a>
+                            <span>Mathew Beedham 23 hours ago</span>
+                          </div>
+                          <div>
+                            <a href="#"><img width="100%" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/2-516x270.jpg" alt="image"></a>
+                            <a href="#"><h3>Targeting Trump fans, QAnon ad slips through Facebook's filters</h3></a>
+                            <span>The Markup 1 day ago</span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="funds">
+                <div class="funding">
+                    <div class="container">
+                        <h2 style="color: #ff4422;">Latest funding rounds on Index.co > 
+                            <span><a href="#">Add info</a> | <a href="#">Get updates by email</a> | <a href="#">See more</a></span>
+                        </h2>
+                        <div class="child">
+                            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1107603199119245313%2FeUG56Cif.png&signature=024443de4ba473ceb4af45bbfd48f790" 
+                            alt="image">
+                            <div class="title">
+                                <a href="#">WeGift</a>
+                            </div>
+                            <div class="cost">
+                                <a href="#">$8M</a>
+                                <a href="#">SERIES A</a>
+                            </div>
+                            <div class="text">
+                                <li><a class="info" href="#">Fintech</a></li>
+                                <li><a class="info"href="#">Unilever Ventures, +3</a></li> 
+                            </div>
+                            <div class="line"></div>
+                            <div class="text2">
+                                <a class="info last" href="#">WeGift, the 'incentive marketing' platform, colects $8M in new funding</a>
+                                </li><a style="color: grey;" href="#">on TechCrunch</a>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1329802686154334208%2F34YrdfBZ.jpg&signature=938a55e89ff7793677713ef84856df8b" 
+                            alt="image">
+                            <div class="title">
+                                <a href="#">Currect</a>
+                            </div>
+                            <div class="cost">
+                                <a href="#">$131M</a>
+                                <a href="#">SERIES c</a>
+                            </div>
+                            <div class="text">
+                                <li><a class="info" href="#">Mobile Payments, +3</a></li>
+                                <li><a class="info"href="#">Foundation Capital, +5</a></li> 
+                            </div>
+                            <div class="line"></div>
+                            <div class="text2">
+                                <a class="info last" href="#">Mobile banking app Current raises $131M Series C, stops 2 million members </a>
+                                </li><a style="color: grey;" href="#">on TechCrunch</a>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1191952489593155585%2FGtabP2qB.png&signature=658c76de6dab24b6db5d339f25808581" 
+                            alt="image">
+                            <div class="title">
+                                <a href="#">HMBradley</a>
+                            </div>
+                            <div class="cost">
+                                <a href="#">$18.3</a>
+                                <a href="#">SERIES A</a>
+                            </div>
+                            <div class="text">
+                                <li><a class="info" href="#">Financial Services</a></li>
+                                <li><a class="info"href="#">Acrew Capital</a></li> 
+                            </div>
+                            <div class="line"></div>
+                            <div class="text2">
+                                <a class="info last" href="#">HMBradley raises 18.25 million planting a flag as LA's entrant into the challenger bank business</a>
+                                </li><a style="color: grey;" href="#">on TechCrunch</a>
+                            </div>
+                        </div>
+                        <div id="lostchild" class="child">
+                            <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F995394462800003072%2FmDMLjn9G.jpg&signature=575816df2ac9c04b1dd95c3c60441499" 
+                            alt="image">
+                            <div class="title">
+                                <a href="#">Elevát</a>
+                            </div>
+                            <div class="cost">
+                                <a href="#">$9.5M</a>
+                                <a href="#">VENTURE CAPITAL</a>
+                            </div>
+                            <div class="text">
+                                <li><a class="info" href="#">Information Technology</a></li>
+                            </div>
+                            <div class="line"></div>
+                            <div class="text2">
+                                <a class="info last" href="#">Seattle-area IoT software startup Elevát raises $9.5M for manufacturing machine monitoring tech</a>
+                                <a style="color: grey;" href="#">on GeekWire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gridNews">
+                <div class="news">
+                    <div class="newsGrid">
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">HARD FORK > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/elonstonks-368x276.jpg);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Elon Musk eclipses Bill Gates to become the world's second richest person</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">David Canellis - 1 day ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">Tesla makes its S&P 500 debut in exactly 4.20 weeks</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/Falcon-Heavy-Elon-Musk-Space-X-Tesla-1.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">Big Pharma's COVID-19 vaccines injected $1 trillion into the S&P 500</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Elon who? Tesla's Chinise rival NIO is up 1,200% this year</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Tencent bounces hard after President Xi spokes market into $200B tech selloff</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Warren Buffet might-have just sold $5B worth of Apple stoke</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">Traders dump Zoom for Expedia as Pfizer vaccine teases life after COVID</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">APPS > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/Snapchat-Lit-368x276.jpg);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Snapchat is ripping off TikTok - the cycle is now complete</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">Rachel Kaser - 1 day ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">This handy site tells you if specific apps work on Apple SILIcon yet</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/header-image-apps-work-on-apple-silicon-m1-chip.png" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">Twitter now warns you before liking a tweet labeled for misinformation</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Microsoft Edge adds autofill coupon codes and more annotation tools</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Google Chrome gets a new icon in Big Sur - and it wants your help choosing the next</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Google pay gets a complete to try to handle all your finance</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">Strava finally rainstates support for Bluetooth heart rate monitors - after dropping it last year</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">GEAR > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Geneinno-S2-underwater-scooter-header-image-368x276.png);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">How do you design an underwater scooter? Easy, start with a drown</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">Callum Booth - 16 hours ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">The SpurCycle bike bell is so nice, It might just be worth paying $49 for</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Spurcycle-1-of-1-1.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">How do you design an underwater scooter?  Easy start with a drone</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Battle of the affordables: Pixel 4a vs OnePlus Nord vs Poco X3</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">The Mini Urbanaut concept is a TARDIS on wheels for day-trippers of the future</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Blessed be the relaxation power of a CBD bath bomb</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">My addiction to cassette tapes isn't a problem - it's a solution</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">TECH > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/tesla-nand-flash-memory-nhtsa-error-car-future-ev-sad-failure-nvidia-tegra-368x276.jpg);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Tesla recalls 9,500 cars for steering issues and detaching roof trim</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">Mathew Beedham - 20 hours ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">Researcher taught Ai how to judge a video game by its cover</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/gameclassai.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">Tesla recalls 9,500 cars for steering issues and detaching roof trim</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Musk boasts his Semi will have a 621-mile range and a 40-ton payload capacity</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">DoNotPay, the AI lawyer for you inbox,  now lets you report businesses for tax frauds</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Ableist capitalist individualism</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">Meshmerize is the winner of the Start-Up Games</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">Creative > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Graphic design apps are now as fundamental as Excel - here's how non-designers get up to speed</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">Alexis Ong - 8 weeks ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">This real-world multiplayer game lets you spend other people's money - really</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">Warzone is infinitely more fun without vehicles (even though it's just a bug)</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">The Winamp Skin Museum is a beautiful homage to an iconic piece of software</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Why skin tone modifiers don't work for emoji, , explained by an emoji historian</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Why you need Design Thinking and Proofs of Concept to level up your business</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">How an AI graphic designer convinced clients it was human</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">Podium > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium-368x276.png);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Google still abuses its search monopoly in the EU — regulators wake up!</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">Christian Kroll - 29 days ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">Mixed reality is perfect for our innate multitasking habits</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq.png" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">6 big data blunders businesses should avoid</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">The AI landscape is shifting from 'data' to 'knowledge.' Here's why that matters</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Disruptive fintech is our best bet to economic recovery post COVID-19</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Tech in Latin America: An entrepreneur’s guide to June’s startup news</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">4 ways to improve your latest product’s landing page to guarantee conversion</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">Insights > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/job-sucks-sad-stress-gq-368x276.png);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">It's not just you — work psychologist confirms COVID-19 made jobs suckier</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">The Conversation - 2 hours ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">How COVID and an unexpected 17-hour time difference forced us to master asynchronous work</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/covid-19-airplane-flights-gq.png" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">Elon Musk eclipses Bill Gates to become the world's second richest person</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">6 things I wish I knew before I bootstrapped my first SaaS startup</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">How Google Workspace unlocked the market for subscription business software</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Tesla makes its S&P 500 debut in exactly 4.20 weeks</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">Study: Basic car automation is enough to make drivers more distracted</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">Launch > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium-368x276.jpg);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">I’ve fallen for the electric Hummer and I hate myself for it</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">Matthew Beedham - 5 weeks ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">Amazon's electric delivery vans made by Rivian are here, and they're pretty cute</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">This adorable little electric car is made of trash</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Amazon's electric delivery vans made by Rivian are here, and they're pretty cute</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Lynk & Co.'s car sharing-owning scheme will never cost more than €500 a month</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Lucid unveils the Air, its luxury EV with up to 517-miles of range costing as much as $169K</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">Say hello to SHIFT, our new publication about the future of mobility tech</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsContainer">
+                            <h2 style="color: #ff4500;">Distract > </h2>
+                            <div class="background"
+                            style="background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Confused-about-gifting-368x276.png);">
+                                <div class="imageText" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Most Popular</a></p>
+                                    <p><a style="color: white; font-weight: bold; font-size: 28px; text-shadow: 1px 1px 2px #000;"
+                                        href="#">Suck at gifting? This GPT-3-powered bot will save your ass this holiday season</a></p>
+                                    <p><a style="color: white; text-shadow: 1px 1px 2px #000; font-size: 16px;"
+                                        href="#">Abhimanyu Ghoshal - 1 hour ago</a></p>
+                                </div>
+                            </div>
+                            <div class="theBox" style="background-color: #fdd5b1; margin-top: 5px;">
+                                <div class="boxText" style="margin-left: 10px; margin-top: 10px;" >
+                                    <p><a style="color: #ff4500;"
+                                        href="#">Latest</a></p>
+                                    <p><a style="color: #ff4500; font-weight: bold;"
+                                        href="#">Everything you need to know about the PlayStation 5 and the Xbox Series S/X</a></p>
+                                </div>
+                                <div class="boxImage">
+                                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/xboxps5-fixed2.png">
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#">Assassin's Creed Valhalla is a good-ass video game</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Watch Dogs: Legion has millions of playable characters — but I’d rather have one good one</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">This app guesses your Myer-Briggs personality based on your Reddit history</a></li>
+                                    <div class="line"></div>
+                                    <li><a href="#">Pixar's 'Soul' will land on Disney+ Christmas day, no $30 fee required</a></li>
+                                    <div class="li"></div>
+                                    <li><a href="#">Call of Duty: Warzone Season 6 riddled with crashes and silly subway bugs</a></li>
+                                    <div class="line"></div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="topFooter">
+                <div class="topFooter1">
+                    <ul class="icons">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-youtube"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-pinterest"></a></li>
+                        <li><a href="#" class="fa fa-feed"></a></li>
+                        <li><a href="#" class="fa fa-envelope"></a></li>
+                    </ul>
+                </div>
+                <div class="topFooter2">
+                    <ul>
+                        <li><a href="#">EVENTS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">ADVERTISE</a></li>
+                        <li><a href="#">JOBS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottomFooter">
+                <p> © 2006–2020 The Next Web B.V. Made with in Amsterdam. Powered by <a href="#">StackPath</a></p>
+            </div>
+        </footer>
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "100%";
+            }
+            function openNav1() {
+              document.getElementById("yourSearch").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            function closeNav1() {
+              document.getElementById("yourSearch").style.width = "0";
+            }
+        </script>
+    </body>
+</html>
