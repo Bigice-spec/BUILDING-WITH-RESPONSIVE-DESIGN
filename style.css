@@ -227,6 +227,7 @@ a.active, a:hover{
     display: flex;
     align-items: flex-end;
     will-change: opacity;
+    background-position: center;
 }
 .box2{
     display: grid;
@@ -242,6 +243,7 @@ a.active, a:hover{
     will-change: opacity;
     display: flex;
     align-items: flex-end;
+    background-position: center;
 }
 .gridBottom{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-2020-11-24T142420.705-796x417.png);
@@ -251,6 +253,7 @@ a.active, a:hover{
     display: flex;
     align-items: flex-end;
     will-change: opacity;
+    background-position: center;
 }
 .text{
     
@@ -499,7 +502,7 @@ footer{
         margin-bottom: 20px;
     }
 }
-@media (max-width: 736px){
+@media (max-width: 858px){
     .container h2{
         word-wrap: break-word;
     }
